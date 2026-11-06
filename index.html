@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Ember &amp; Oak — Small-Batch Coffee Roasters &amp; Café</title>
+    <meta
+      name="description"
+      content="Ember & Oak is a small-batch roastery and café in Brooklyn. Single-origin coffee roasted over oak, 72-hour croissants and a slow bar worth slowing down for."
+    />
+    <meta name="theme-color" content="#140E0A" />
+    <meta name="color-scheme" content="dark light" />
+    <link rel="canonical" href="%VITE_SITE_URL%/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Ember & Oak" />
+    <meta property="og:title" content="Ember & Oak — Small-Batch Coffee Roasters & Café" />
+    <meta
+      property="og:description"
+      content="Single-origin coffee roasted over oak, 72-hour croissants and a slow bar worth slowing down for."
+    />
+    <meta property="og:url" content="%VITE_SITE_URL%/" />
+    <meta property="og:image" content="%VITE_SITE_URL%/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="A roaster pouring freshly roasted coffee beans into a cooling tray under a warm lamp" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ember & Oak — Small-Batch Coffee Roasters & Café" />
+    <meta name="twitter:description" content="Single-origin coffee roasted over oak, 72-hour croissants and a slow bar worth slowing down for." />
+    <meta name="twitter:image" content="%VITE_SITE_URL%/og-image.jpg" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Manrope:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CafeOrCoffeeShop",
+        "name": "Ember & Oak",
+        "description": "Small-batch coffee roasters and café (fictional brand, portfolio demo).",
+        "servesCuisine": "Coffee, Bakery",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "41 Cinder Lane",
+          "addressLocality": "Brooklyn",
+          "addressRegion": "NY",
+          "postalCode": "11211",
+          "addressCountry": "US"
+        },
+        "openingHours": ["Mo-Fr 07:00-19:00", "Sa 08:00-20:00", "Su 08:00-17:00"]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>Ember &amp; Oak — small-batch coffee roasters &amp; café. Please enable JavaScript to view this site.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
